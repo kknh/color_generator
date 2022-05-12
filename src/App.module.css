@@ -1,0 +1,50 @@
+.section-choice {
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+
+.choice-container {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.input {
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.btn {
+	background-color: var(--clr-primary-5);
+	padding: 0.5rem 1rem;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	color: white;
+	border-radius: 0px 5px 5px 0;
+	border: none;
+	cursor: pointer;
+}
+
+.section-colors {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+	width: 100%;
+	min-height: calc(100vh - 100px);
+}
+
+.color {
+	padding: 1rem 2rem;
+}
+
+.color > p {
+	margin: 0;
+}
